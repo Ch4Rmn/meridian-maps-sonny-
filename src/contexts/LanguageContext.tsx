@@ -25,8 +25,8 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Hero Section
     'hero.badge': 'Precision Cartography Since 2015',
-    'hero.title': 'Explore Yangon & Beyond with',
-    'hero.titleHighlight': 'Precision',
+    'hero.title': 'Get Yangon and Myanmar Maps at a Special Price',
+    'hero.titleHighlight': '(Almost Half Price) (Only for 7 weeks)',
     'hero.subtitle': 'Discover our collection of high-quality Yangon maps, custom map prints, and the definitive Township Map Book. Trusted by professionals across Myanmar.',
     'hero.shopNow': 'Shop Now',
     'hero.viewCollection': 'Explore Map Books',
@@ -200,7 +200,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Hero Section
     'hero.badge': '၂၀၁၅ ခုနှစ်မှစ၍ တိကျသော မြေပုံရေးဆွဲခြင်း',
     'hero.title': 'ရန်ကုန် နှင့် မြန်မာပြည်မြေပုံများ အထူးဈေးနှုန်း  ',
-    'hero.titleHighlight': '( တစ်ဝက်နီးပါး လျော့ဈေး ) ဖြင့် ရယူလိုက်ပါ (နစ်ပတ် အတွင်းသာ)',
+    'hero.titleHighlight': '( တစ်ဝက်နီးပါး လျော့ဈေး ) ဖြင့် ရယူလိုက်ပါ (နှစ်ပတ် အတွင်းသာ)',
     'hero.subtitle': 'အရည်အသွေးမြင့် ရန်ကုန်မြေပုံများ၊ စိတ်ကြိုက်မြေပုံပုံနှိပ်ခြင်းများနှင့် မြို့နယ်မြေပုံစာအုပ် စုဆောင်းမှုကို ရှာဖွေပါ။ မြန်မာတစ်နိုင်ငံလုံးရှိ ပညာရှင်များ ယုံကြည်စိတ်ချရသော။',
     'hero.shopNow': 'ယခုဝယ်ရန်',
     'hero.viewCollection': 'မြေပုံစာအုပ်များ ကြည့်ရန်',

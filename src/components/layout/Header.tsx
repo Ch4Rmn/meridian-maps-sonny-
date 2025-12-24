@@ -35,9 +35,10 @@ export function Header({ onAuthClick }: HeaderProps) {
       <div className="container flex h-16 items-center justify-between md:h-20">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 transition-opacity hover:opacity-80">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary shadow-sm">
-            <MapPin className="h-5 w-5 text-primary-foreground" />
-          </div>
+          {/* <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary shadow-sm"> */}
+            <img src="https://www.dpsmap.com/assets/favicon/favicon-512x512.png" alt="Logo" className="h-16 w-16" />
+            {/* <MapPin className="h-5 w-5 text-primary-foreground" /> */}
+          {/* </div> */}
           <div className="flex flex-col">
             <span className="font-display text-xl font-bold text-foreground">DPS Map</span>
             <span className="hidden text-xs text-muted-foreground sm:block">Precision Cartography</span>
