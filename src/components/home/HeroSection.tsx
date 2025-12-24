@@ -28,7 +28,7 @@ export function HeroSection({ heroImage }: HeroSectionProps) {
 
       {/* Content */}
       <div className="container relative z-10">
-        <div className="max-w-2xl">
+        <div className="max-w-3xl m-2">
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary-foreground/20 bg-primary-foreground/10 px-4 py-2 backdrop-blur-sm animate-fade-in">
             <MapPin className="h-4 w-4 text-terracotta-light" />
@@ -36,8 +36,9 @@ export function HeroSection({ heroImage }: HeroSectionProps) {
           </div>
 
           {/* Headline */}
-          <h1 className="font-display text-4xl font-bold leading-tight text-primary-foreground sm:text-5xl md:text-6xl animate-slide-up" style={{ animationDelay: '0.1s' }}>
-            {t('hero.title')}{' '}
+          <h1  className="font-display text-4xl font-bold leading-tight text-primary-foreground sm:text-5xl md:text-6xl animate-slide-up" style={{ animationDelay: '0.1s', lineHeight: '84px' }}>
+            {t('hero.title')}
+          <br />
             <span className="text-terracotta-light">{t('hero.titleHighlight')}</span>
           </h1>
 
